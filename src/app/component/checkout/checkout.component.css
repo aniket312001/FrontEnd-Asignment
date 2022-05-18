@@ -1,0 +1,17 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 4px;
+}
+
+
+.vl {
+  border-left: 2px solid rgb(111, 114, 111);
+  height: 150px;
+  position: absolute; left: 515px; bottom: 35px
+}

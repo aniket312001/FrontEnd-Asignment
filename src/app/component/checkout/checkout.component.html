@@ -1,0 +1,41 @@
+<div>
+
+  <mat-toolbar>
+
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon favorite-icon" style="margin-right:92px;" >
+    <span>Grand Total</span>
+  </button>
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" style="margin-right:32px;">
+    <span>1430.90</span>
+  </button>
+
+</mat-toolbar>
+
+
+
+
+<mat-toolbar  [ngStyle]="{background:'#C4DDFF' , color:'#fff'}">
+
+  <mat-radio-group aria-label="Select an option" style="margin-left:32px;">
+    <mat-toolbar-row>
+      <mat-radio-button value="1"><span style="margin-left:32px; color:black;">Credit Card/Debit Card</span></mat-radio-button>
+    </mat-toolbar-row>
+
+    <mat-toolbar-row>
+        <mat-radio-button value="2"><span style="margin-left:32px;color:black;">Paytm/Walet</span></mat-radio-button>
+      </mat-toolbar-row>
+
+    <mat-toolbar-row>
+      <mat-radio-button value="3"><span style="margin-left:32px;color:black;">Upi payment</span></mat-radio-button>
+    </mat-toolbar-row>
+
+  </mat-radio-group>
+  <button  style="width:84px ; position: relative; left: 715px; bottom: 95px"  class="button">
+    Pay Now
+  </button>
+
+  <div class="vl"></div>
+</mat-toolbar>
+
+</div>
